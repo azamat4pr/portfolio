@@ -35,7 +35,7 @@ async function getQuotes(){
         apiQuotes =  await response.json();
         newQuote();
     } catch(error) {
-        // Carch errors here
+        alert(`You have this error: ${error}`);
     }
 }
 
